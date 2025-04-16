@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-cyan-300: #8fe3f9;
+  --color-cyan-600: #4d96a9;
+
+  --color-purple-300: #d9b8ff;
+  --color-purple-600: #855fb1;
+
+  --color-slate-900: #28283d;
+  --color-slate-600: #87879d;
+  --color-slate-300: #d1d1df;
+
+  --color-white: #fafafa;
+}
