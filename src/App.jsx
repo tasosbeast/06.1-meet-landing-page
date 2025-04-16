@@ -1,13 +1,16 @@
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
+
 function App() {
-  return <>hello</>;
+  return (
+    <div className="app overflow-hidden">
+      <Nav />
+      <Hero />
+    </div>
+  );
 }
 
 export default App;
-
-//   Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
-
-// Download v1.3
-// What is it?
 
 // 01
 // Built for modern use
