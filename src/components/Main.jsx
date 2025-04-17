@@ -17,12 +17,12 @@ function Main() {
         </div>
         <div className="flex flex-col gap-8 max-w-[504px] lg:max-w-[544px] mx-auto">
           <div className="flex flex-col gap-4 max-w-md mx-auto">
-            <h2 className="text-xs-mobile md:text-xs-tablet lg:text-xs tracking-wide red-hat-display-black text-cyan-600 uppercase">
+            <h3 className="text-xs-mobile md:text-xs-tablet lg:text-xs tracking-wide red-hat-display-black text-cyan-600 uppercase">
               Built for modern use
-            </h2>
-            <h3 className="text-md-mobile md:text-md-tablet lg:text-md leading-md red-hat-display-black text-slate-900">
-              Smarter meetings, all in one place
             </h3>
+            <h2 className="text-md-mobile md:text-md-tablet lg:text-md leading-md red-hat-display-black text-slate-900">
+              Smarter meetings, all in one place
+            </h2>
           </div>
           <p className="text-xs leading-lg lg:text-sm">
             Send messages, share files, show your screen, and record your
