@@ -38,7 +38,7 @@ function Hero() {
           <img
             src="/desktop/image-hero-right.png"
             alt=""
-            className="collapse lg:visible lg:translate-x-15 lg:translate-y-6 "
+            className="hidden lg:block lg:translate-x-15 lg:translate-y-6 "
           />
         </div>
       </div>
