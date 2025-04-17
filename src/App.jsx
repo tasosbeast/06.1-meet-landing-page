@@ -1,11 +1,13 @@
 import Hero from "./components/Hero";
+import Main from "./components/Main";
 import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="app overflow-hidden">
+    <div className="app overflow-hidden bg-white red-hat-display-medium text-slate-600">
       <Nav />
       <Hero />
+      <Main />
     </div>
   );
 }
