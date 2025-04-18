@@ -31,6 +31,17 @@
 
   --tracking-*: initial;
   --tracking-wide: 4px;
+
+  @keyframes pulse {
+    0% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1.4);
+    }
+  }
 }
 
 @utility red-hat-display-black {
@@ -41,4 +52,8 @@
 @utility red-hat-display-medium {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
+}
+
+@utility soft-pulse {
+  animation: pulse 1.8s ease-in-out infinite;
 }
