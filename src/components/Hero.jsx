@@ -1,4 +1,5 @@
 import Button from "./Button";
+import { Typewriter } from "react-simple-typewriter";
 
 function Hero() {
   return (
@@ -21,7 +22,16 @@ function Hero() {
         <div className="text-center flex flex-col gap-6 max-w-md mx-auto">
           <h1 className="text-md sm:text-[2.7rem] md:text-lg-tablet lg:text-lg red-hat-display-black leading-md text-slate-900">
             Group Chat <br />
-            for Everyone
+            for{" "}
+            <span className="text-purple-600">
+              <Typewriter
+                words={["Friends", "Teams", "Families", "Everyone"]}
+                loop={1}
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1500}
+              />
+            </span>
           </h1>
           <p className=" red-hat-display-medium leading-lg text-slate-600 ">
             Meet makes it easy to connect with others face-to-face virtually and
