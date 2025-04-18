@@ -1,5 +1,6 @@
 import Button from "./Button";
 import StepIndicator from "./StepIndicator";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 function Footer() {
